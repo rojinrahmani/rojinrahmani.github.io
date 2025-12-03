@@ -1,74 +1,46 @@
-.section {
-  max-width: 900px;
-  margin: 100px auto;
-  padding: 0 20px;
+.experience-card {
+  background: rgba(17, 24, 39, 0.6);
+  border: 1px solid #1f2937;
+  border-radius: 14px;
+  padding: 28px 30px;
+  margin-bottom: 40px;
 }
 
-.section-title {
-  font-size: 32px;
-  margin-bottom: 50px;
-  border-bottom: 2px solid #1f2937;
-  display: inline-block;
-  padding-bottom: 6px;
-}
-
-.timeline {
-  position: relative;
-  border-left: 2px solid #1f2937;
-  padding-left: 40px;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 60px;
-}
-
-.timeline-dot {
-  position: absolute;
-  left: -10px;
-  top: 8px;
-  width: 14px;
-  height: 14px;
-  background: #3b82f6;
-  border-radius: 50%;
-  box-shadow: 0 0 12px #3b82f6;
-}
-
-.timeline-content h3 {
+.experience-card h3 {
   font-size: 22px;
   margin-bottom: 6px;
 }
 
-.company {
-  display: block;
+.meta {
   color: #9ca3af;
   font-size: 14px;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.date {
-  display: block;
-  font-size: 13px;
+.meta span {
   color: #6b7280;
-  margin-bottom: 14px;
 }
 
-.timeline-content ul {
+.bullets {
   padding-left: 18px;
+  margin-bottom: 18px;
+}
+
+.bullets li {
   margin-bottom: 12px;
+  line-height: 1.7;
 }
 
-.timeline-content li {
-  margin-bottom: 10px;
-  line-height: 1.6;
-}
-
-.tech span {
+.tags span {
   display: inline-block;
-  font-size: 12px;
+  background: rgba(59, 130, 246, 0.12);
   color: #93c5fd;
-  background: rgba(59, 130, 246, 0.15);
-  padding: 4px 10px;
-  border-radius: 12px;
-  margin-right: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  border-radius: 999px;
+  margin-right: 8px;
   margin-top: 6px;
 }
