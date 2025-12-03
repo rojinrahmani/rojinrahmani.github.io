@@ -84,13 +84,15 @@ body {
 }
 
 .hero-content p {
-  font-size: 17px;
-  max-width: 620px;
+  font-size: 19px;
+  max-width: 680px;
   color: #9ca3af;
 }
+
+
 .hero-buttons a {
-  font-size: 15px;
-  padding: 12px 22px;
+  font-size: 17px;
+  padding: 14px 28px;
 }
 
 
