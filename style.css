@@ -116,12 +116,12 @@ body {
   transition: all 0.25s ease;
 }
 
-.hero-buttons a:hover {
+/* .hero-buttons a:hover {
   background: rgba(59, 130, 246, 0.15);
   border-color: #3b82f6;
   color: #bfdbfe;
 }
-
+ */
 
 /* ================= AVATAR ================= */
 .avatar {
