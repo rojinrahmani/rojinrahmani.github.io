@@ -2,150 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rojin Rahmani</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- ✅ FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- ✅ CSS (CRITICAL) -->
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="navbar glass">
-  <div class="logo">RR</div>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-    <a class="cv-btn" href="CV_Rojin_Rahmani.pdf" download>CV</a>
+  <!-- ========= NAV ========= -->
+  <nav class="navbar">
+    <div class="logo">RR</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="cv-btn" href="CV_Rojin_Rahmani.pdf" target="_blank">CV</a></li>
+    </ul>
   </nav>
-</header>
 
-<section class="hero">
-  <img src="profile.jpeg" class="avatar" />
-  <h1>Rojin Rahmani</h1>
-  <p class="role">🚀 Software Engineer | 🤖 AI Enthusiast</p>
-  <p class="subtitle">Building intelligent and scalable backend & AI-driven systems</p>
+  <!-- ========= HERO ========= -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="avatar">
+        <img src="profile.jpeg" alt="Rojin Rahmani">
+      </div>
 
-  <div class="buttons">
-    <a class="btn" href="https://github.com/rojinrahmani" target="_blank">GitHub</a>
-    <a class="btn" href="https://www.linkedin.com/in/rozhinrahmani/" target="_blank">LinkedIn</a>
-    <a class="btn" href="mailto:rahmanirojin98@gmail.com">Email</a>
-  </div>
-</section>
+      <h1>Rojin Rahmani</h1>
+      <h2>🚀 Software Engineer | 🤖 AI Enthusiast</h2>
+      <p>Building intelligent and scalable backend & AI-driven systems.</p>
 
-<section id="about" class="section">
-  <h2>About</h2>
-  <p>
-    I am a Software Engineer with hands-on experience in designing scalable backend systems
-    and applying machine learning techniques to real-world problems.
-  </p>
-  <p>
-    Strong interest in artificial intelligence and machine learning, with a focus on building
-    intelligent, data-driven systems tightly integrated with modern software engineering practices.
-  </p>
-</section>
-
-<section id="experience" class="section">
-  <h2 class="section-title">Experience</h2>
-
-  <div class="experience-card">
-    <h3>Software Engineer</h3>
-    <p class="meta">
-      Iranian Pars Artificial Intelligence Company · Tehran, Iran
-      <span>Jul 2025 – Present</span>
-    </p>
-
-    <ul class="bullets">
-      <li>
-        Architected and implemented a
-        <strong>role-based internal ticketing system</strong>
-        with multi-role workflows and threaded conversations
-      </li>
-      <li>
-        Built a scalable <strong>Scrapy–Playwright crawler</strong>
-        for dynamic and authenticated platforms supporting high-volume data ingestion
-      </li>
-      <li>
-        Designed and maintained
-        <strong>unit & integration testing pipelines</strong> using Pytest to ensure backend reliability
-      </li>
-    </ul>
-
-    <div class="tags">
-      <span>Python</span>
-      <span>Scrapy</span>
-      <span>Playwright</span>
-      <span>Pytest</span>
+      <div class="hero-buttons">
+        <a href="https://github.com/rojinrahmani" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/rozhinrahmani/" target="_blank">LinkedIn</a>
+        <a href="mailto:rahmanirojin98@gmail.com">Email</a>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="experience-card">
-    <h3>Backend Developer</h3>
-    <p class="meta">
-      Alpha Company · Qazvin, Iran
-      <span>Apr 2024 – Mar 2025</span>
+  <!-- ========= ABOUT ========= -->
+  <section class="section" id="about">
+    <h3>About</h3>
+    <p>
+      Software Engineer with hands-on experience in designing scalable backend
+      architectures and developing data-driven systems.
     </p>
-
-    <ul class="bullets">
-      <li>
-        Designed a <strong>modular microservices architecture</strong>
-        enabling scalable and maintainable backend systems
-      </li>
-      <li>
-        Improved inter-service communication using <strong>gRPC</strong> and API Gateway routing,
-        reducing request latency
-      </li>
-      <li>
-        Implemented <strong>real-time voice-based AI interaction</strong>
-        using WebSocket & WebRTC
-      </li>
-    </ul>
-
-    <div class="tags">
-      <span>Python</span>
-      <span>gRPC</span>
-      <span>WebSocket</span>
-      <span>WebRTC</span>
-    </div>
-  </div>
-
-  <div class="experience-card">
-    <h3>Backend Developer</h3>
-    <p class="meta">
-      Vira Parto Electronics · Qazvin, Iran
-      <span>Aug 2022 – Mar 2024</span>
+    <p>
+      Passionate about artificial intelligence, machine learning, and building
+      intelligent systems that bridge data, infrastructure, and software engineering.
     </p>
+  </section>
 
-    <ul class="bullets">
-      <li>
-        Architected a <strong>real-time data ingestion system</strong>
-        for high-volume industrial sensor data
-      </li>
-      <li>
-        Enabled secure and reliable streaming via <strong>MQTT-based communication</strong>
-      </li>
-      <li>
-        Developed an <strong>automated alerting system</strong>
-        with real-time notifications
-      </li>
-    </ul>
+  <!-- ========= EXPERIENCE ========= -->
+  <section class="section" id="experience">
+    <h3>Experience</h3>
 
-    <div class="tags">
-      <span>Python</span>
-      <span>MQTT</span>
-      <span>Real-Time Systems</span>
-      <span>Data Pipelines</span>
+    <!-- Card -->
+    <div class="experience-card">
+      <h4>Software Engineer</h4>
+      <span>Iranian Pars Artificial Intelligence Company · Tehran, Iran</span>
+      <span class="date">Jul 2025 – Present</span>
+      <ul>
+        <li>Architected and implemented a <b>role-based internal ticketing system</b>.</li>
+        <li>Built scalable <b>Scrapy–Playwright crawlers</b> for dynamic and authenticated platforms.</li>
+        <li>Designed comprehensive <b>unit & integration testing</b> pipelines using Pytest.</li>
+      </ul>
+      <div class="tags">Python · Scrapy · Playwright · Pytest</div>
     </div>
-  </div>
-</section>
 
+    <div class="experience-card">
+      <h4>Backend Developer</h4>
+      <span>Alpha Company · Qazvin, Iran</span>
+      <span class="date">Apr 2024 – Mar 2025</span>
+      <ul>
+        <li>Designed modular <b>microservices architecture</b> for scalable systems.</li>
+        <li>Improved inter-service communication using <b>gRPC & API Gateway</b>.</li>
+        <li>Implemented real-time voice-based AI interaction via WebSocket & WebRTC.</li>
+      </ul>
+      <div class="tags">Python · gRPC · WebSocket · WebRTC</div>
+    </div>
 
+    <div class="experience-card">
+      <h4>Backend Developer</h4>
+      <span>Vira Parto Electronics · Qazvin, Iran</span>
+      <span class="date">Aug 2022 – Mar 2024</span>
+      <ul>
+        <li>Architected real-time ingestion systems for high-volume industrial sensor data.</li>
+        <li>Enabled secure streaming using <b>MQTT-based communication</b>.</li>
+        <li>Developed automated alerting for critical plant conditions.</li>
+      </ul>
+      <div class="tags">Python · MQTT · Real-Time Systems</div>
+    </div>
+  </section>
 
-<section id="contact" class="section">
-  <h2>Contact</h2>
-  <p>Email: rahmanirojin98@gmail.com</p>
-</section>
+  <!-- ========= CONTACT ========= -->
+  <section class="section" id="contact">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:rahmanirojin98@gmail.com">rahmanirojin98@gmail.com</a></p>
+  </section>
 
-<script src="script.js"></script>
+  <footer>
+    © 2025 Rojin Rahmani
+  </footer>
+
 </body>
 </html>
