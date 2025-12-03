@@ -109,6 +109,17 @@ body {
 .hero-buttons a {
   font-size: 17px;
   padding: 14px 28px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: all 0.25s ease;
+}
+
+.hero-buttons a:hover {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: #3b82f6;
+  color: #bfdbfe;
 }
 
 
