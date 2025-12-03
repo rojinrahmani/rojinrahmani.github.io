@@ -72,6 +72,27 @@ body {
   align-items: center;
   justify-content: center;
 }
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+.hero-content h2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #c7d2fe;
+}
+
+.hero-content p {
+  font-size: 17px;
+  max-width: 620px;
+  color: #9ca3af;
+}
+.hero-buttons a {
+  font-size: 15px;
+  padding: 12px 22px;
+}
+
 
 .hero-content {
   display: flex;
